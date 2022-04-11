@@ -1,17 +1,11 @@
 import pyttsx3
 print('Welcome to Voice program \U0001F603, you can use commands.\n voice_gender(), voice_rate(), end()')
 num = int(input('chose voice (0: male/1: female): '))
-if num != 0 or 1:
-    print('Error 404! just type 0 or 1')
-    num = int(input('chose voice (0: male/1: female): '))
 rate = 150
 while True:
     text = input('say your message: ')
     if text == 'voice_gender()':
         num = int(input('chose gender of voice (0: male/1: female): '))
-        if num != 0 or 1:
-            print('Error 404! just type 0 or 1')
-            num = int(input('chose voice (0: male/1: female): '))
     elif text == 'end()':
         print('see you later \U0001F600!')
         break
