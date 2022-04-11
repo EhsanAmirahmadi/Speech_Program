@@ -2,7 +2,7 @@
 
 for start work with this install requirements by ```pip install -r requirements```
 <br/>
-or you can use it ```pip install pyttxs3```
+or you can use it ```pip install pyttsx3```
 
 *then run speech_program.py and enjoy it :)*
 
