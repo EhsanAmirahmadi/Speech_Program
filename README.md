@@ -2,12 +2,12 @@
 
 for start work with this install requirements by ```pip install -r requirements```
 
-then run speech_program.py and enjoy it :)
-<br/>
+*then run speech_program.py and enjoy it :)*
+
 we have 3 commands you can use these.
+
+```voice_gender()``` : it can change gender of voice.
 <br/>
-voice_gender() : it can change gender of voice.
+```voice_rate()``` : it can change rate of vioce.
 <br/>
-voice_rate() : it can change rate of vioce.
-<br/>
-end(): it finish the progrm.
+```end()``` : it finish the progrm.
